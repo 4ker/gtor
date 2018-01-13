@@ -5,11 +5,16 @@ Einstein spent a great deal of time worrying about how one can exchange mass
 and energy.
 In software, we worry a lot about trading space and time.
 
+时间空间的转化是什么重要的. 如何 trade off?
+
 For software, memory is laid out over space, and a process will run over the
 course of time.
 We divide time between asynchronous time and synchronous time.
 
 There are many ways of describing and defining synchrony.
+
+美音 /'sɪnkrəni/
+
 For the purposes of this article, a simple definition suffices.
 Everything a function does before returning is synchronous.
 What a function does after returning is the realm of the asynchronous.
@@ -55,8 +60,11 @@ The walk to elightenment appears to be one of three steps.
 2. Oh, *everything* is!
 3. Oh, some things are, some things aren't. Trade-offs.
 
+说的好玄幻. 初看为什么, 再说其实都这样, 最后,
+要看情况...
+
 So, it is my hope that when someone realizes that everything can be modeled
-with some kind of stream, that they are in the middle of a journey, not the end,
+with some kind of stream, that **they are in the middle of a journey, not the end**,
 because the epiphany that "Everything is a Stream" is just about as right as
 "Everything is an Array".
 
